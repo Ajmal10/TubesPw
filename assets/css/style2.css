@@ -1,0 +1,100 @@
+html{
+		position: relative;
+}
+
+body{
+		margin-bottom: 100px;
+}
+.profile img{
+		width: 80px;
+		border: 5px solid #666;
+}
+h1{
+	text-shadow: 2px 2px 2px 2px;
+}
+.jumbotron h1:hover{
+	color: red;
+}
+hr{
+		width:250px;
+		border-top: 3px solid #999;
+}
+section{
+		min-height:500px;
+}
+
+.portfolio{
+		background-color:#eaeaea;
+}
+.portfolio:hover{
+	background-color: black;
+}
+.portfolio img{
+	filter: grayscale(80%);
+	-o-filter: grayscale(80%);
+	-webkit-filter: grayscale(80%);
+}
+.portfolio img:hover{
+	filter: none;
+	}
+.contact{
+		min-height:900px;
+}
+
+footer{
+		position: absolute;
+		bottom: 0;
+		text-align: center;
+		width:1250px;
+		left: -17px;
+		height:100px;
+		background-color: #333;
+		color:#aaa;
+		padding-top:20px;
+}
+
+footer p{
+		color:#333;
+		font-size:0.9em;
+}
+
+footer p i{
+		color:green;
+}
+.clear{
+	clear: both;
+}
+
+#container, .gambar, .desc{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;	
+}
+#container, .gambar img{
+	width: 50px;
+	border-radius: 50%;
+}
+.desc{
+	font-family: "arial narrow";
+	margin : auto;
+	}
+.content{
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-bottom: 3px #300 solid;
+	border-radius: 5px;
+}
+.container{
+	position: relative;
+	background-color: #d8d8d8;
+	width: 600px;
+	border-radius: 5px;
+	padding: 15px 15px;
+	margin: 0 auto;
+	box-shadow: 0 0 1px 0 #000;
+}
+form {
+	padding: 10px;
+}

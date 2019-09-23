@@ -1,0 +1,92 @@
+.clear{
+	clear: both;
+}
+
+.gambar, .desc{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+}
+
+#pembungkus{
+	position: relative;
+	background-color: #d8d8d8;
+	width: 600px;
+	border-radius: 5px;
+	padding: 15px 15px;
+	margin: 0 auto;
+	box-shadow: 0 0 1px 0 #000;
+}
+
+.header{
+	font-family: "arial narrow";
+	font-size: 40px;
+	text-align: center;
+}
+
+.content{
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-bottom: 3px #300 solid;
+	border-radius: 5px;
+}
+
+/*gambar*/
+
+.gambar img{
+	width: 50px;
+	border-radius: 50%;
+}
+
+/*deskripsi*/
+
+.desc{
+	font-family: "arial narrow";
+	margin : auto;
+	}
+
+.nama a{
+	font-family: "arial narrow";
+	color: cyan;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 34px;
+	text-align: center;
+}
+
+.nama a:hover{
+	color: lime;
+}
+.button1 {
+	background-color:blue ;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button2 {
+	background-color:red ;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+form {
+	padding: 10px;
+}
